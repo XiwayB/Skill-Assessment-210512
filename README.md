@@ -4,8 +4,8 @@ Skill Assessment Test
 This is an assessment skill I received.
 There are two tests: 
 
-1. Create a HTML page according to a provided design (see main branch) 
-2. Fetch data from an API to render it on HTML page (see Api-Integration branch)
+1. Create a HTML page according to a provided design 
+2. Fetch data from an API to render it on HTML page (created on Api-Integration branch and then merged to main)
 
 ## Instructions Test 1 
 
