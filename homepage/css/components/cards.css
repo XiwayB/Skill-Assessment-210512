@@ -8,6 +8,16 @@
   margin-bottom: 107px;
 }
 
+#show-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  margin-top: 141px;
+  margin-left: 107px;
+  margin-right: 107px;
+  margin-bottom: 107px;
+}
+
 .card-content {
   background-color: #3D3C3C;
   color: white;
@@ -47,6 +57,10 @@
     grid-template-columns: 1fr 1fr;
   }
 
+  #show-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
   .card-content .btn {
     margin-right: 72px;
   }
@@ -58,6 +72,10 @@
 
 @media(max-width: 768px) {
   #cards {
+    grid-template-columns: 1fr;
+  }
+
+  #show-cards {
     grid-template-columns: 1fr;
   }
 }
