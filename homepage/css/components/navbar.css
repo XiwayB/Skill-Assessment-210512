@@ -3,8 +3,8 @@
 
 .navbar-aon3D {
   background-color: black;
-  opacity: 0.8;
-  height: 84px;
+  opacity:0.9;
+  height: 108px;
   width: 100%;
   position: fixed;
 }
@@ -33,6 +33,28 @@
   text-decoration: none;
 }
 
+.link-gallery {
+  margin-top: 3px;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  margin-right: 12px;
+}
+
+.link-gallery a {
+  margin-top: 3px;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.link-gallery a:hover {
+  margin-top: 3px;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+}
+
 .account-toggle {
   margin-right: 40px;
 }
@@ -41,6 +63,7 @@
   margin-top: 3px;
   color: white;
   font-weight: 600;
+  font-size: 18px;
 }
 
 .account-toggle:hover {
@@ -59,4 +82,5 @@
 .account-dropdown {
   position: relative;
   right: -16px;
+  left: -2px;
 }

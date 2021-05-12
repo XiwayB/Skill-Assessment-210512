@@ -9,39 +9,14 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="icon" href="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_192,h_192/https://www.aon3d.com/wp-content/uploads/2020/04/cropped-AON3D_Symbol_Black_Blue-192x192.png" sizes="192x192">
-
+    <!--     Load shared components -->
+    <script src="./js/components/footer.js" type="text/javascript" defer></script>
+    <script src="./js/components/nav.js" type="text/javascript" defer></script>
   </head>
   <body>
 
   <!-- Navbar -->
-  <div class="navbar navbar-expand-sm navbar-dark navbar-aon3D fixed-top" style="justify-content: space-between">
-    <div>
-      <a class="brand-logo" href="#">
-        <img src="./assets/logo.svg" />
-      </a>
-      <a href="#" class="link-home">
-        HOME
-      </a>
-    </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item dropdown">
-          <div class="account-dropdown account-toggle"id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ACCOUNT
-          <i class="fas fa-chevron-down"></i>
-          </div>
-          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Profile</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Logout</a>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
+  <navbar-component></navbar-component>
 
   <!--   Banner -->
 
@@ -90,96 +65,7 @@
   <div id="cards"></div>
 
   <!-- Footer -->
-  <footer style="background-image:url(https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://www.aon3d.com/wp-content/themes/aon3d/html_templates/build//assets/img/curved-bg--black.png); background-color: black;">
-    <div class="footer-cards">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="footer-card">
-              <div class="footer-section">
-                <h5>Platform</h5>
-                <div class="footer-list">
-                  <a href="#">Industrial 3D Printer</a>
-                </div>
-              </div>
-              <div class="footer-section">
-              <h5>Materials</h5>
-                <div class="footer-list">
-                  <a href="#">PEKK & Carbon-Fiber</a>
-                  <a href="#">PEKK</a>
-                  <a href="#">PEKK & Carbon-Fiber</a>
-                  <a href="#">PEKK</a>
-                  <a href="#">ULTEM™ 9085</a>
-                  <a href="#">Polycarbonate</a>
-                  <a href="#">Nylon (PA)</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="footer-card">
-              <div class="footer-section">
-                <h5>Platform</h5>
-                <div class="footer-list">
-                  <a href="#">Event</a>
-                </div>
-              </div>
-              <div class="footer-section">
-                <h5>Company</h5>
-                <div class="footer-list">
-                  <a href="#">About AON3D</a>
-                  <a href="#">Careers</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="footer-card">
-              <div class="footer-section">
-                <div class="footer-list">
-                  <a href="#">Advanced Additive Training</a>
-                  <a href="#">Design for Additive Manufacturing</a>
-                  <a href="#">Materials Selection</a>
-                  <a href="#">Process Parameter Development</a>
-                  <a href="#">Company</a>
-                  <a href="#">Feedback</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="footer-card">
-              <div class="footer-section">
-                <h5>Subscribe</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr class="footer-line">
-
-        <div class="row">
-          <div class="col-md-6">
-            <div class="footer-legal">
-              <div>
-                ©AON3D Copyright 2021. All Rights Reserved.
-              </div>
-            </div>
-          </div>
-
-        <div class="col-md-6">
-          <div class="footer-legal-subsection">
-            <a href="#">Privacy</a>
-            <a href="#">Terms of Use</a>
-            <a href="#">Terms of Sale</a>
-          </div>
-        </div>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <footer-component></footer-component>
 
   <!-- Load javaScript -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
