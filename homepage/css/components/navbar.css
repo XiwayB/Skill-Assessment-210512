@@ -1,0 +1,62 @@
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+.navbar-aon3D {
+  background-color: black;
+  opacity: 0.8;
+  height: 84px;
+  width: 100%;
+  position: fixed;
+}
+
+.navbar-aon3D .navbar-collapse {
+  flex-grow: 0;
+}
+
+.brand-logo {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.brand-logo:hover{
+  text-decoration: none;
+}
+
+.link-home {
+  font-weight: 600;
+  color: white;
+}
+
+.link-home:hover {
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+
+.account-toggle {
+  margin-right: 40px;
+}
+
+.account-toggle {
+  margin-top: 3px;
+  color: white;
+  font-weight: 600;
+}
+
+.account-toggle:hover {
+  margin-top: 3px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+
+.fas {
+  margin-right: 40px;
+  font-size: 14px;
+  color: white;
+}
+
+.account-dropdown {
+  position: relative;
+  right: -16px;
+}
